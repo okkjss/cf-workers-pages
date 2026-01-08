@@ -1,0 +1,51 @@
+# 可直接用于 Pages 项目里配置的默认值示例（按需修改）
+# Workers 一键部署：默认值写在 wrangler.toml 的 [vars]
+# 注意：如平台不允许“空值”，可选项请直接不创建该环境变量（不填等价于留空）。
+
+# 必需/入口校验
+u=6c1c4c98-11db-4d30-9c0a-8d2e3f8b82b5
+
+# 可选：自定义路径（留空则使用 UUID）
+d=
+
+# 可选：回落地址 / ProxyIP
+p=
+
+# 可选：SOCKS5 配置（host:port 或 user:pass@host:port）
+s=
+
+# 可选：手动指定 Worker 区域
+wk=
+
+# 协议开关（yes/no）
+ev=yes
+et=no
+ex=no
+
+# Trojan 密码（留空则使用 UUID）
+tp=
+
+# 订阅转换
+scu=https://url.v1.mk/sub
+
+# 远程配置 URL（用于订阅转换的 config 参数）
+rcu=https://raw.githubusercontent.com/byJoey/test/refs/heads/main/tist.ini
+
+# 可选：伪装域名（用于节点链接的 Host/SNI），留空则使用当前 Worker 域名
+hd=
+
+# 优选开关（yes/no）
+epd=no
+epi=yes
+egi=yes
+
+# API 管理（yes/no）
+ae=no
+
+# 其它控制（按需启用）
+rm=
+yx=
+yxURL=
+qj=
+dkby=
+yxby=

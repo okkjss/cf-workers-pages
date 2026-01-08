@@ -1,0 +1,32 @@
+name = "cf-workers-pages"
+main = "src/index.ts"
+compatibility_date = "2026-01-07"
+
+[vars]
+# 一键部署（Workers）时会带出这些默认值；也可以在 Cloudflare Dashboard 里覆盖。
+# 必需/入口校验
+u = "6c1c4c98-11db-4d30-9c0a-8d2e3f8b82b5"
+
+# 协议开关（yes/no）
+ev = "yes"
+et = "no"
+ex = "no"
+
+# 订阅转换
+scu = "https://url.v1.mk/sub"
+
+# 优选开关（yes/no）
+epd = "no"
+epi = "yes"
+egi = "yes"
+
+# API 管理（yes/no）
+ae = "no"
+
+# 说明：可选变量（如 d/p/s/wk/tp/rcu/hd 等）不写在这里，
+# 以避免一键部署向导要求填写空值；需要时可在 Dashboard 里新增同名变量覆盖。
+
+# 如需使用 KV 配置持久化，请在 Cloudflare Dashboard 创建 KV 并绑定为 C
+# kv_namespaces = [
+#   { binding = "C", id = "<KV_NAMESPACE_ID>" }
+# ]
